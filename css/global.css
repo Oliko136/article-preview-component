@@ -1,3 +1,33 @@
+:root {
+    --white: #FFFFFF;
+    --grey-900: #48556A;
+    --grey-500: #6E8098;
+    --grey-400: #9DAEC2;
+    --grey-200: #ECF2F8;
+    --font-family: 'Manrope', sans-serif;
+    --font-size-title: 1.25rem;
+    --font-size-text: 0.8125rem;
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
+    --line-height-title: 1.625rem;
+    --line-height-text: 1.1375rem;
+    --letter-spacing-title: 0.01563rem;
+    --letter-spacing-text: 0.001rem;
+    --letter-spacing-accent: 0.20313rem;
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+    --spacing-400: 2rem;
+    --spacing-500: 2.5rem;
+    --spacing-600: 3rem;
+    --spacing-700: 3.5rem;
+    --spacing-800: 4rem;
+    --spacing-1300: 6.4rem;
+    --spacing-2000: 10rem;
+    --mobile: 327px;
+    --tablet: 608px;
+    --desktop: 730px;
+}
+
 html {
     box-sizing: border-box;
 }
