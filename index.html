@@ -7,6 +7,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/styles.css">
+  <script src="./index.js" defer></script>
 
   <title>Frontend Mentor | Article preview component</title>
 
@@ -39,14 +40,14 @@
           </div>
         </div>
 
-        <button type="button" class="button">
+        <button type="button" class="button" id="open-btn">
           <svg class="button_icon" width="32" height="32">
             <use href="/assets/images/icon-sprite.svg#icon-share"></use>
           </svg>
         </button> 
       </div>
 
-      <div class="toast">
+      <div class="toast is-hidden" id="toast">
         <div class="toast_wrap">
           <p class="toast_text">Share</p>
           <ul class="socials">
@@ -73,7 +74,7 @@
             </li>
           </ul>
         </div>
-        <button type="button" class="button">
+        <button type="button" class="button" id="close-btn">
           <svg class="button_icon" width="32" height="32">
             <use href="/assets/images/icon-sprite.svg#icon-share"></use>
           </svg>

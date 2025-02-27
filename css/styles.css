@@ -97,6 +97,10 @@
     background-color: var(--grey-900);
 }
 
+.toast.is-hidden {
+    display: none;
+}
+
 .toast_wrap {
     display: flex;
     align-items: center;
