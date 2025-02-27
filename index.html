@@ -16,7 +16,7 @@
 <body>
   <article class="article">
     <div class="article_thumb">
-      <img src="/assets/images/drawers.jpg" alt="Green drawers in a light room" class="article_img">
+      <img src="./assets/images/drawers.jpg" alt="Green drawers in a light room" class="article_img">
     </div>
     
     <div class="article_content">
@@ -33,16 +33,16 @@
       
       <div class="article_footer">
         <div class="details">
-          <img src="/assets/images/avatar-michelle.jpg" alt="A woman smiling" class="details_img">
+          <img src="./assets/images/avatar-michelle.jpg" alt="A woman smiling" aria-labelledby="author" class="details_img">
           <div class="details_text">
-            <p class="details_name">Michelle Appleton</p>
+            <p class="details_name" id="author">Michelle Appleton</p>
             <p class="details_date">28 Jun 2020</p>
           </div>
         </div>
 
-        <button type="button" class="button" id="open-btn">
+        <button type="button" class="button" id="open-btn" aria-label="Open share options">
           <svg class="button_icon" width="32" height="32">
-            <use href="/assets/images/icon-sprite.svg#icon-share"></use>
+            <use href="./assets/images/icon-sprite.svg#icon-share"></use>
           </svg>
         </button> 
       </div>
@@ -52,31 +52,31 @@
           <p class="toast_text">Share</p>
           <ul class="socials">
             <li class="socials_item">
-              <a href="https://www.facebook.com/" target="_blank">
-                <svg class="socials_icon" width="20" height="20">
-                  <use href="/assets/images/icon-sprite.svg#icon-facebook"></use>
+              <a href="https://www.facebook.com/" target="_blank" aria-label="Share the article on Facebook">
+                <svg class="socials_icon" width="20" height="20" aria-hidden="true">
+                  <use href="./assets/images/icon-sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="socials_item">
-              <a href="https://www.x.com/" target="_blank">
-                <svg class="socials_icon" width="20" height="20">
-                  <use href="/assets/images/icon-sprite.svg#icon-twitter"></use>
+              <a href="https://www.x.com/" target="_blank" aria-label="Share the article on Twitter">
+                <svg class="socials_icon" width="20" height="20" aria-hidden="true">
+                  <use href="./assets/images/icon-sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="socials_item">
-              <a href="https://www.pinterest.com/" target="_blank">
-                <svg class="socials_icon" width="20" height="20">
-                  <use href="/assets/images/icon-sprite.svg#icon-pinterest"></use>
+              <a href="https://www.pinterest.com/" target="_blank" aria-label="Share the article on Pinterest">
+                <svg class="socials_icon" width="20" height="20" aria-hidden="true">
+                  <use href="./assets/images/icon-sprite.svg#icon-pinterest"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <button type="button" class="button" id="close-btn">
+        <button type="button" class="button" id="close-btn" aria-label="Close share options">
           <svg class="button_icon" width="32" height="32">
-            <use href="/assets/images/icon-sprite.svg#icon-share"></use>
+            <use href="./assets/images/icon-sprite.svg#icon-share"></use>
           </svg>
         </button>
         </div>

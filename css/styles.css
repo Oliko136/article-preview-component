@@ -90,7 +90,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: var(--spacing-800);
+    gap: var(--spacing-700);
     height: 76px;
     padding: 16px 32px;
     border-radius: 0px 0px 10px 10px;
