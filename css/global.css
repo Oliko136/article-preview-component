@@ -28,6 +28,18 @@
     --desktop: 730px;
 }
 
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/Manrope-Bold.ttf) format('truetype');
+    font-weight: var(--font-weight-bold);
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/Manrope-Medium.ttf) format('truetype');
+    font-weight: var(--font-weight-medium);
+}
+
 html {
     box-sizing: border-box;
 }
