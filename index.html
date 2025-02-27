@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
 
   <title>Frontend Mentor | Article preview component</title>
 
@@ -31,8 +32,30 @@
 
     <div class="toast">
       <p class="toast_text">Share</p>
+      <ul class="socials">
+        <li class="socials_item">
+          <svg class="socials_icon">
+            <use href="./images/icon-sprite.svg#icon-facebook"></use>
+          </svg>
+        </li>
+        <li class="socials_item">
+          <svg class="socials_icon">
+            <use href="./images/icon-sprite.svg#icon-twitter"></use>
+          </svg>
+        </li>
+        <li class="socials_item">
+          <svg class="socials_icon">
+            <use href="./images/icon-sprite.svg#icon-pinterest"></use>
+          </svg>
+        </li>
+      </ul>
     </div>
+
+    <button type="button" class="button">
+      <svg>
+        <use href="./images/icon-sprite.svg#icon-share"></use>
+      </svg>
+    </button>
   </article>
 </body>
-
 </html>
