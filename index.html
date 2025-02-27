@@ -14,48 +14,72 @@
 
 <body>
   <article class="article">
-    <img src="/assets/images/drawers.jpg" alt="Green drawers in a light room" class="article_img">
-    <h1 class="article_title">
-      Shift the overall look and feel by adding these wonderful touches to furniture in your home
-    </h1>
-    <p class="article_description">
-      Ever been in a room and felt like something was missing?
-      Perhaps it felt slightly bare and uninviting.
-      I’ve got some simple tips to help you make any room feel complete.
-    </p>
-
-    <div class="details">
-      <img src="/assets/images/avatar-michelle.jpg" alt="A woman smiling" class="details_img">
-      <p class="details_name">Michelle Appleton</p>
-      <p class="details_date">28 Jun 2020</p>
+    <div class="article_thumb">
+      <img src="/assets/images/drawers.jpg" alt="Green drawers in a light room" class="article_img">
     </div>
+    
+    <div class="article_content">
+      <div class="article_text">
+        <h1 class="article_title">
+          Shift the overall look and feel by adding these wonderful touches to furniture in your home
+        </h1>
+        <p class="article_description">
+          Ever been in a room and felt like something was missing?
+          Perhaps it felt slightly bare and uninviting.
+          I’ve got some simple tips to help you make any room feel complete.
+        </p>
+      </div>
+      
+      <div class="article_footer">
+        <div class="details">
+          <img src="/assets/images/avatar-michelle.jpg" alt="A woman smiling" class="details_img">
+          <div class="details_text">
+            <p class="details_name">Michelle Appleton</p>
+            <p class="details_date">28 Jun 2020</p>
+          </div>
+        </div>
 
-    <div class="toast">
-      <p class="toast_text">Share</p>
-      <ul class="socials">
-        <li class="socials_item">
-          <svg class="socials_icon">
-            <use href="/assets/images/icon-sprite.svg#icon-facebook"></use>
+        <button type="button" class="button">
+          <svg class="button_icon" width="32" height="32">
+            <use href="/assets/images/icon-sprite.svg#icon-share"></use>
           </svg>
-        </li>
-        <li class="socials_item">
-          <svg class="socials_icon">
-            <use href="/assets/images/icon-sprite.svg#icon-twitter"></use>
+        </button> 
+      </div>
+
+      <div class="toast">
+        <div class="toast_wrap">
+          <p class="toast_text">Share</p>
+          <ul class="socials">
+            <li class="socials_item">
+              <a href="https://www.facebook.com/" target="_blank">
+                <svg class="socials_icon" width="20" height="20">
+                  <use href="/assets/images/icon-sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials_item">
+              <a href="https://www.x.com/" target="_blank">
+                <svg class="socials_icon" width="20" height="20">
+                  <use href="/assets/images/icon-sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials_item">
+              <a href="https://www.pinterest.com/" target="_blank">
+                <svg class="socials_icon" width="20" height="20">
+                  <use href="/assets/images/icon-sprite.svg#icon-pinterest"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="button">
+          <svg class="button_icon" width="32" height="32">
+            <use href="/assets/images/icon-sprite.svg#icon-share"></use>
           </svg>
-        </li>
-        <li class="socials_item">
-          <svg class="socials_icon">
-            <use href="/assets/images/icon-sprite.svg#icon-pinterest"></use>
-          </svg>
-        </li>
-      </ul>
+        </button>
+        </div>
     </div>
-
-    <button type="button" class="button">
-      <svg>
-        <use href="/assets/images/icon-sprite.svg#icon-share"></use>
-      </svg>
-    </button>
   </article>
 </body>
 </html>

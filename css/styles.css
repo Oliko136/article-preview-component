@@ -1,1 +1,122 @@
 @import './global.css';
+
+.article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-400);
+    width: var(--mobile);
+    margin: 65px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--white);
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
+}
+
+.article_thumb {
+    height: 200px;
+    overflow: hidden;
+}
+
+.article_content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-600);
+    padding: 0 1.88rem 1.12rem;
+}
+
+.article_text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300);
+}
+
+.article_title {
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-title);
+    letter-spacing: var(--letter-spacing-title);
+    color: var(--grey-900);
+}
+
+.article_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-200);
+}
+
+.details_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.details_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.details_name {
+    font-weight: var(--font-weight-bold);
+    color: var(--grey-900);
+}
+
+.details_date {
+    color: var(--grey-400);
+}
+
+.button {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.toast {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-800);
+    height: 76px;
+    padding: 16px 32px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--grey-900);
+}
+
+.toast_wrap {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-300);
+}
+
+.toast_text {
+    height: 1rem;
+    letter-spacing: var(--letter-spacing-accent);
+    text-transform: uppercase;
+    color: var(--grey-400);     
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-200);
+}
+
+.socials_icon {
+    display: block;
+    cursor: pointer;
+}
