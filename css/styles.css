@@ -173,7 +173,7 @@
         width: 248px;
         height: 100px;
         background-color: transparent;
-        background-image: url(/assets/images/toast.svg);
+        background-image: url(https://github.com/Oliko136/article-preview-component/blob/main/assets/images/toast.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
