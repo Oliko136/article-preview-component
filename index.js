@@ -1,9 +1,7 @@
-const openButton = document.getElementById('open-btn');
-const closeButton = document.getElementById('close-btn');
+const toggleButton = document.getElementById('toggle-btn');
 const toastEl = document.getElementById('toast');
 
-openButton.addEventListener('click', toggleToast);
-closeButton.addEventListener('click', toggleToast);
+toggleButton.addEventListener('click', toggleToast);
 
 function toggleToast() {
     toastEl.classList.toggle('is-hidden');
