@@ -14,66 +14,68 @@
 </head>
 
 <body>
-  <article class="article">
-    <img src="./assets/images/drawers.jpg" alt="Green drawers in a light room" class="article_img">
+  <main>
+    <article class="article">
+      <img src="./assets/images/drawers.jpg" alt="Green drawers in a light room" class="article_img">
     
-    <div class="article_content">
-      <div class="article_text">
-        <h1 class="article_title">
-          Shift the overall look and feel by adding these wonderful touches to furniture in your home
-        </h1>
-        <p class="article_description">
-          Ever been in a room and felt like something was missing?
-          Perhaps it felt slightly bare and uninviting.
-          I’ve got some simple tips to help you make any room feel complete.
-        </p>
-      </div>
+      <div class="article_content">
+        <div class="article_text">
+          <h1 class="article_title">
+            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+          </h1>
+          <p class="article_description">
+            Ever been in a room and felt like something was missing?
+            Perhaps it felt slightly bare and uninviting.
+            I’ve got some simple tips to help you make any room feel complete.
+          </p>
+        </div>
       
-      <div class="article_footer">
-        <div class="details">
-          <img src="./assets/images/avatar-michelle.jpg" alt="A woman smiling" aria-labelledby="author" class="details_img">
-          <div class="details_text">
-            <p class="details_name" id="author">Michelle Appleton</p>
-            <p class="details_date">28 Jun 2020</p>
+        <div class="article_footer">
+          <div class="details">
+            <img src="./assets/images/avatar-michelle.jpg" alt="A woman smiling" aria-labelledby="author" class="details_img">
+            <div class="details_text">
+              <p class="details_name" id="author">Michelle Appleton</p>
+              <p class="details_date">28 Jun 2020</p>
+            </div>
+          </div>
+
+          <button type="button" class="button" id="toggle-btn" aria-label="Open and close share options">
+            <svg class="button_icon" width="16" height="16">
+              <use href="./assets/images/icon-sprite.svg#icon-share"></use>
+            </svg>
+          </button> 
+        </div>
+
+        <div class="toast is-hidden" id="toast">
+          <div class="toast_wrap">
+            <p class="toast_text">Share</p>
+            <ul class="socials">
+              <li class="socials_item">
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Share the article on Facebook">
+                  <svg class="socials_icon" width="20" height="20" aria-hidden="true">
+                    <use href="./assets/images/icon-sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials_item">
+                <a href="https://www.x.com/" target="_blank" aria-label="Share the article on Twitter">
+                  <svg class="socials_icon" width="20" height="20" aria-hidden="true">
+                    <use href="./assets/images/icon-sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials_item">
+                <a href="https://www.pinterest.com/" target="_blank" aria-label="Share the article on Pinterest">
+                  <svg class="socials_icon" width="20" height="20" aria-hidden="true">
+                    <use href="./assets/images/icon-sprite.svg#icon-pinterest"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-
-        <button type="button" class="button" id="toggle-btn" aria-label="Open and close share options">
-          <svg class="button_icon" width="16" height="16">
-            <use href="./assets/images/icon-sprite.svg#icon-share"></use>
-          </svg>
-        </button> 
       </div>
-
-      <div class="toast is-hidden" id="toast">
-        <div class="toast_wrap">
-          <p class="toast_text">Share</p>
-          <ul class="socials">
-            <li class="socials_item">
-              <a href="https://www.facebook.com/" target="_blank" aria-label="Share the article on Facebook">
-                <svg class="socials_icon" width="20" height="20" aria-hidden="true">
-                  <use href="./assets/images/icon-sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials_item">
-              <a href="https://www.x.com/" target="_blank" aria-label="Share the article on Twitter">
-                <svg class="socials_icon" width="20" height="20" aria-hidden="true">
-                  <use href="./assets/images/icon-sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials_item">
-              <a href="https://www.pinterest.com/" target="_blank" aria-label="Share the article on Pinterest">
-                <svg class="socials_icon" width="20" height="20" aria-hidden="true">
-                  <use href="./assets/images/icon-sprite.svg#icon-pinterest"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        </div>
-    </div>
-  </article>
+    </article>
+  </main>
 </body>
 </html>
