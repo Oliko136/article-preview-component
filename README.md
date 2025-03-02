@@ -24,7 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/screenshots/article-screenshot.webp)
+![](./assets/screenshots/article-screenshot-active.webp)
 
 ### Links
 
@@ -44,7 +45,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+The primary goal of this project for me was to refresh my knowledge of vanilla JavaScript, starting from the basics. However, it turned out to be the easiest part, while the challenging part was perfecting the UI styling, specifically working with the main image and the popup.
+
+Additionally, it allowed me to apply some of my accessibility knowledge, like aria-labels, since the links and the button lack descriptive text in the design and uses icons instead.
 
 ## Author
 
